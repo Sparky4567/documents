@@ -53,6 +53,7 @@ tags: [newpost]
 # {target_date.isoformat()}
 
 > TLDR;
+
 > Šiandienos tema: {target_date.isoformat()}
 
 Sveika, elektroerdve,
