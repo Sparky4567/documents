@@ -1,2 +1,3 @@
 # artefaktasdocuments
- Heavily edited docsaurus theme to serve as a blog and nothing more
+
+Heavily edited docusaurus theme to serve as a blog and nothing more
