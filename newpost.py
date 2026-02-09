@@ -97,7 +97,7 @@ def create_daily_blog_post():
         if today_path.exists():
             print(f"🛑 Today’s post already exists. ({today_path.name})")
         else:
-            create_blog_post(today, target_dir)
+            create_blog_post(today.isoformat(), target_dir)
 
 if __name__ == "__main__":
     create_daily_blog_post()
