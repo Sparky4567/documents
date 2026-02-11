@@ -1,2 +1,2 @@
 #!/bin/bash
-py newpost.py
+python3 newpost.py
