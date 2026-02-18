@@ -1,0 +1,85 @@
+.shareContainer {
+  margin: 2.5rem 0 1rem;
+  padding: 1.5rem;
+  border-top: 1px solid var(--ifm-color-emphasis-300);
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.shareLabel {
+  font-size: 0.8rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--ifm-color-emphasis-600);
+}
+
+.shareButtons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.shareBtn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.45rem 0.9rem;
+  border-radius: 2rem;
+  font-size: 0.82rem;
+  font-weight: 600;
+  text-decoration: none !important;
+  border: none;
+  cursor: pointer;
+  transition: transform 0.15s ease, box-shadow 0.15s ease, filter 0.15s ease;
+  color: #fff !important;
+  line-height: 1;
+}
+
+.shareBtn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  filter: brightness(1.1);
+  text-decoration: none !important;
+}
+
+.shareBtn:active {
+  transform: translateY(0);
+  box-shadow: none;
+}
+
+/* Brand colors */
+.facebook {
+  background-color: #1877f2;
+}
+
+.twitter {
+  background-color: #000;
+}
+
+[data-theme='dark'] .twitter {
+  background-color: #1a1a1a;
+  border: 1px solid #333;
+}
+
+.linkedin {
+  background-color: #0a66c2;
+}
+
+.whatsapp {
+  background-color: #25d366;
+}
+
+.copyBtn {
+  background-color: var(--ifm-color-emphasis-400);
+  color: var(--ifm-font-color-base) !important;
+}
+
+[data-theme='dark'] .copyBtn {
+  background-color: var(--ifm-color-emphasis-300);
+}
+
+.copyBtn:hover {
+  background-color: var(--ifm-color-emphasis-500);
+}

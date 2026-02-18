@@ -4,7 +4,7 @@
 // There are various equivalent ways to declare your Docusaurus config.
 // See: https://docusaurus.io/docs/api/docusaurus-config
 
-import {themes as prismThemes} from 'prism-react-renderer';
+import { themes as prismThemes } from 'prism-react-renderer';
 
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
@@ -74,6 +74,17 @@ const config = {
     ],
   ],
 
+  plugins: [
+    [
+      require.resolve("@easyops-cn/docusaurus-search-local"),
+      /** @type {import("@easyops-cn/docusaurus-search-local").Options} */
+      ({
+        hashed: true,
+        language: ["en"],
+      }),
+    ],
+  ],
+
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
@@ -95,7 +106,7 @@ const config = {
           //   position: 'left',
           //   label: 'Tutorial',
           // },
-          {to: '/blog', label: 'Blog', position: 'left'},
+          { to: '/blog', label: 'Blog', position: 'left' },
           // {
           //   href: 'https://github.com/facebook/docusaurus',
           //   label: 'GitHub',
@@ -118,18 +129,18 @@ const config = {
           // {
           //   title: 'Community',
           //   items: [
-              // {
-              //   label: 'Stack Overflow',
-              //   href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-              // },
-              // {
-              //   label: 'Discord',
-              //   href: 'https://discordapp.com/invite/docusaurus',
-              // },
-              // {
-              //   label: 'X',
-              //   href: 'https://x.com/docusaurus',
-              // },
+          // {
+          //   label: 'Stack Overflow',
+          //   href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+          // },
+          // {
+          //   label: 'Discord',
+          //   href: 'https://discordapp.com/invite/docusaurus',
+          // },
+          // {
+          //   label: 'X',
+          //   href: 'https://x.com/docusaurus',
+          // },
           //   ],
           // },
           {
