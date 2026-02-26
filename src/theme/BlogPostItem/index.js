@@ -2,6 +2,7 @@ import React from 'react';
 import { useBlogPost } from '@docusaurus/plugin-content-blog/client';
 import BlogPostItem from '@theme-original/BlogPostItem';
 import ShareButtons from '@site/src/components/ShareButtons';
+import AgeVerifier from '@site/src/components/AgeVerifier';
 
 export default function BlogPostItemWrapper(props) {
     const { isBlogPostPage, metadata } = useBlogPost();
@@ -10,6 +11,7 @@ export default function BlogPostItemWrapper(props) {
         <>
             <BlogPostItem {...props} />
             {isBlogPostPage && <ShareButtons title={metadata.title} />}
+            {isBlogPostPage && <AgeVerifier />}
         </>
     );
 }
