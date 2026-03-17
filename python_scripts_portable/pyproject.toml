@@ -1,0 +1,11 @@
+[project]
+name = "python-scripts-portable"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "icecream>=2.1.4",
+    "pathlib>=1.0.1",
+    "requests>=2.32.3",
+]
