@@ -1,0 +1,17 @@
+{
+  "blogDir": "../blog",
+  "destinations": {
+    "vault": "../vault",
+    "dropbox": "/home/cyber/Dropbox/blog_backup/",
+    "drive": "/mnt/chromeos/GoogleDrive/MyDrive/DOCS_STORAGE/",
+    "driveLinux": "/run/user/1000/gvfs/google-drive:host=gmail.com,user=andrius.pratusis1993/0ANY_aEQmVIShUk9PVA/1KRXQz5OABxzelY6ODTVZjjeSHovahz12/"
+  },
+  "postTemplate": {
+    "templateFile": "template.md",
+    "heroImage": "https://www.dropbox.com/scl/fi/ozwb8141r9p1gegm74zk1/artefaktas_eu.jpg?rlkey=kex3z13fdg0eciums3driexp7&st=73a95se8&dl=1",
+    "tldrThemePrefix": "Šiandienos tema: ",
+    "author": "artefaktas",
+    "aboutAuthor": "I’m a creator-blogger driven by curiosity, blending writing, art, music, code, and the elegance of math and physics into everything I do.",
+    "kofiUrl": "https://ko-fi.com/K3K06VU8Z"
+  }
+}

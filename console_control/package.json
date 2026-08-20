@@ -1,0 +1,44 @@
+{
+  "name": "console_control",
+  "version": "1.0.0",
+  "description": "Unified Bun CLI control tool for Artefaktas Docs (Docusaurus) blog management and backups",
+  "main": "index.ts",
+  "module": "index.ts",
+  "type": "module",
+  "bin": {
+    "console-control": "./index.ts"
+  },
+  "scripts": {
+    "start": "bun run index.ts",
+    "cli": "bun run index.ts",
+    "menu": "bun run index.ts menu",
+    "newpost": "bun run index.ts newpost",
+    "newpost:today": "bun run index.ts newpost --today",
+    "newpost:fill": "bun run index.ts newpost --fill-skipped",
+    "movetobox": "bun run index.ts movetobox",
+    "movetodrive": "bun run index.ts movetodrive",
+    "movetodrivelinux": "bun run index.ts movetodrivelinux",
+    "movetovault": "bun run index.ts movetovault",
+    "sync-all": "bun run index.ts sync-all",
+    "status": "bun run index.ts status",
+    "config": "bun run index.ts config",
+    "template": "bun run index.ts template",
+    "template:edit": "bun run index.ts template --edit",
+    "template:preview": "bun run index.ts template --preview",
+    "local": "bun run index.ts local",
+    "build:local": "bun run index.ts local",
+    "remote": "bun run index.ts remote",
+    "build:remote": "bun run index.ts remote",
+    "push": "bun run index.ts push",
+    "get-docs": "bun run index.ts get-docs",
+    "get-posts": "bun run index.ts get-docs",
+    "pull": "bun run index.ts get-docs",
+    "test": "bun test"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  }
+}
